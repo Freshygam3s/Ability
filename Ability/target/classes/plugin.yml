@@ -1,0 +1,13 @@
+name: AbilityPlugin
+version: 1.1
+main: org.freshx.Ability
+api-version: 1.21
+commands:
+  ability:
+    description: Use abilities like /ability 1
+    usage: /ability <number>
+    permission: ability.use
+permissions:
+  ability.use:
+    description: Allows use of /ability
+    default: true
